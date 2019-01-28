@@ -1,0 +1,34 @@
+$container:rgb(100, 100, 100);
+
+.tauxZeroImage {
+  max-width:50%;
+}
+  // Container
+.patzContainerFluid{
+  background-color: $container;
+  border-top: 1px solid #7CBB00;
+    .patzPhoto {
+      // transition: all 1s ease-in-out;
+      // &:hover{
+      //   transform: translate(0.1em,-0.3em) scale(1.1); 
+      // } 
+    }
+    .patzText {
+      color: white;
+      transition: all 1s ease-in-out;
+      a {
+        color: white;
+        text-decoration: none;
+        outline: none;
+        .colorTittle {
+          color:#7CBB00;
+          &:hover{
+            color:rgb(170, 255, 0); 
+          } 
+        }
+      }
+      &:hover{
+        transform: translate(0.1em,-0.3em) scale(1.1); 
+      } 
+    }
+}
