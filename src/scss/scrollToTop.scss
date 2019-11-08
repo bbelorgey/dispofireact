@@ -1,0 +1,16 @@
+// bouton du scroll to top
+.scrollButton {
+  font-size: 1.7em;
+  position:fixed;
+  display: block;
+  opacity: 0;
+  right: 1em;
+  bottom: 3em;
+  padding: 1em;
+  background-color: rgba(10, 13, 29, 0.1);
+  border: solid 1px white;
+  border-radius: .25em;
+  cursor: pointer;
+  color: var(--blue);
+  z-index: 10;
+}

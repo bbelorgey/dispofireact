@@ -1,0 +1,26 @@
+$active: #005889;
+$inactive: #8bd6ff;
+
+// resultat
+.resultBlue {
+  color: white;
+  background-color: var(--blue);
+  box-shadow: 2px 2px 4px rgb(87, 87, 87); 
+}
+.resultGreen {
+  color: white;
+  background-color: var(--vert);
+  box-shadow: 2px 2px 8px rgb(87, 87, 87); 
+}
+.upContainer {
+  height: 250px;
+  div {
+    font-size: 1.7rem;
+    i {
+      font-size: 4rem;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: 1.5rem;
+     }
+  }
+}

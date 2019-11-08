@@ -1,0 +1,11 @@
+$active: #005889;
+$inactive: #8bd6ff;
+$container:rgb(165, 165, 165);
+
+// Container
+.capaciteContainerFluid {
+  background-color: $container;
+}
+.containerCapacite {
+  border-top: 1px solid var(--blue);
+}
