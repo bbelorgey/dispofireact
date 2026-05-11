@@ -3,11 +3,11 @@ const express = require('express');
 const morgan = require('morgan');
 
 const app = express();
-const buildDir = path.resolve(__dirname, '../build');
+const buildDir = path.resolve(__dirname, 'build');
 
 app.use(morgan(':date[clf] :method :url :req[header] :status :response-time ms - :res[content-length]'));
 
-console.log("Express server listening on port %d")
+console.log(`Express server listening on port ${process.env.PORT || 5010}`)
 
 app.use(express.static(buildDir));
 
